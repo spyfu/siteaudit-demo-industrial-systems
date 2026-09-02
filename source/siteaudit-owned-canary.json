@@ -1,0 +1,70 @@
+{
+  "id": "p3-canary-industrial-systems",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "industrial-systems",
+  "layout": "industrial",
+  "surfaceModel": "industrial manufacturer with products, industries, resources, and field service",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-industrial-systems.xlpha.com/",
+  "stack": "nuxt-ssg",
+  "install": "both",
+  "pageCount": 5,
+  "representativePaths": [
+    "/",
+    "/products/stainless-pump-skids/",
+    "/industries/food-processing/",
+    "/resources/cip-design-guide/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Northforge Process Systems | Sanitary equipment, retrofits, and line support",
+      "canonical": "https://p3-canary-industrial-systems.xlpha.com/",
+      "quirks": [
+        "resource-to-product-loop",
+        "pdf-query-links"
+      ],
+      "eyebrow": "Sanitary process equipment"
+    },
+    {
+      "route": "/products/stainless-pump-skids/",
+      "title": "Stainless pump skids | Northforge Process Systems",
+      "canonical": "https://p3-canary-industrial-systems.xlpha.com/products/stainless-pump-skids/",
+      "quirks": [
+        "product-to-industry-loop",
+        "spec-table-duplication"
+      ],
+      "eyebrow": "Product family"
+    },
+    {
+      "route": "/industries/food-processing/",
+      "title": "Food-processing equipment support | Northforge Process Systems",
+      "canonical": "https://p3-canary-industrial-systems.xlpha.com/industries/food-processing/",
+      "quirks": [
+        "industry-to-product-loop"
+      ],
+      "eyebrow": "Industry fit"
+    },
+    {
+      "route": "/resources/cip-design-guide/",
+      "title": "CIP design guide | Northforge Process Systems",
+      "canonical": "https://p3-canary-industrial-systems.xlpha.com/resources/",
+      "quirks": [
+        "canonical-to-resource-hub",
+        "pdf-download-query-links"
+      ],
+      "eyebrow": "Technical resource"
+    },
+    {
+      "route": "/service/field-retrofits/",
+      "title": "Field retrofits and line support | Northforge Process Systems",
+      "canonical": "https://p3-canary-industrial-systems.xlpha.com/service/field-retrofits/",
+      "quirks": [
+        "service-to-resource-loop"
+      ],
+      "eyebrow": "Field support"
+    }
+  ]
+}
