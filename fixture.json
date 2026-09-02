@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sampleId": "industrial-systems",
   "sourceFixtureId": "p3-canary-industrial-systems",
   "nestedPath": "/products/stainless-pump-skids/",
   "repository": "spyfu/siteaudit-demo-industrial-systems",
-  "cloudflarePagesProject": "siteaudit-demo-industrial-systems",
-  "productionBranch": "demo-01",
-  "publicUrl": "https://siteaudit-demo-industrial-systems.pages.dev/",
-  "editUrl": "https://github.com/spyfu/siteaudit-demo-industrial-systems/edit/demo-01/siteaudit-head.html"
+  "cloudflarePagesProjectBase": "siteaudit-demo-industrial-systems",
+  "productionBranches": [
+    "demo-01",
+    "demo-02",
+    "demo-03",
+    "demo-04",
+    "demo-05"
+  ]
 }
